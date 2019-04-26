@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "deploying portfolio on heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c23-repo/portfolio.git"
+  },
+  "author": "Cristian Restrepo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c23-repo/portfolio/issues"
+  },
+  "homepage": "https://github.com/c23-repo/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
