@@ -1,7 +1,7 @@
 /* Basic */
+
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Gugi|Open+Sans");
-
 html {
   box-sizing: border-box;
 }
@@ -19,16 +19,16 @@ body {
   color: #888;
 }
 
-  body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-    -moz-animation: none !important;
-    -webkit-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-    -ms-transition: none !important;
-    transition: none !important;
-  }
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+  -moz-animation: none !important;
+  -webkit-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
 
 input, textarea, select {
   font-family: 'Open Sans', sans-serif;
@@ -49,22 +49,22 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
 }
 
-  h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-    color: #333;
-  }
+h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+  color: #333;
+}
 
 h2 {
   font-size: 2em;
   letter-spacing: -1px;
 }
 
-  h2.alt {
-    color: #888;
-  }
+h2.alt {
+  color: #888;
+}
 
-    h2.alt strong {
-      color: #666;
-    }
+h2.alt strong {
+  color: #666;
+}
 
 h3 {
   font-size: 1.5em;
@@ -74,9 +74,9 @@ header {
   margin: 0 0 2em 0;
 }
 
-  header > p {
-    margin: 1em 0 0 0;
-  }
+header>p {
+  margin: 1em 0 0 0;
+}
 
 footer {
   margin: 2em 0 0 0;
@@ -102,10 +102,10 @@ a {
   outline: 0;
 }
 
-  a:hover {
-    color: #E27689;
-    border-bottom-color: rgba(255, 255, 255, 0);
-  }
+a:hover {
+  color: #E27689;
+  border-bottom-color: rgba(255, 255, 255, 0);
+}
 
 sub {
   position: relative;
